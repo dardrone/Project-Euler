@@ -11,7 +11,6 @@ public class ProjectOne {
 		
 		private int fivesResult;
 		private int threesResult;
-		private int total;
 		
 		for (int i = 3; i < 1000; i += 3) {
 			threesResult += i;
