@@ -9,16 +9,24 @@ public class ProjectOne {
 	
 	public static void main (String[] args) {
 		
-		private int fivesResult;
-		private int threesResult;
-		
+		int sum = 0;
+
+        for(int i=0; i < 1000; i++){
+            if(i % 3 == 0 || i % 5 == 0)
+               sum += i;    
+        }
+        
+        /*
+		/* Scott code
+		/*
 		for (int i = 3; i < 1000; i += 3) {
-			threesResult += i;
-		}
-		for (int j = 5; j < 1000; j += 5) {
-			fivesResult += j; 
-		}
-		
-		System.out.println(threesResult + fivesResult);
+            threesResult += i;
+
+        }
+        for (int j = 5; j < 1000; j += 5) {
+            fivesResult += j;
+        }*/
+
+        System.out.println(sum);
 	}
 }
