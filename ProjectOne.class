@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class ProjectOne
+{
+	public static void main (String[] args) {
+		
+		private int fivesResult;
+		private int threesResult;
+		private int total;
+		
+		for (int i = 3; i < 1000; i += 3) {
+			threesResult += i;
+		}
+		for (int j = 5; j < 1000; j += 5) {
+			fivesResult += j; 
+		}
+		
+		System.out.println(threesResult + fivesResult);
+	}
+}
